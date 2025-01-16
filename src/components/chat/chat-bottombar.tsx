@@ -91,7 +91,7 @@ export default function ChatBottombar({
               <ImageIcon className="w-5 h-5" />
             </Button>
           </div>
-          <form
+          <form ref={formRef}
             onSubmit={handleSubmit}
             className="w-full items-center flex relative gap-2"
           >
